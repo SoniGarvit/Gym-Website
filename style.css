@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  height: 75px;
+  align-items: center;
+}
+.navbar p {
+ 
+  color: white;
+  width: 140px;
+}
+.navbar::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.801);
+  z-index: -1;
+  opacity: 0.8;
+  height: 75px;
+  width: 100%;
+  position: absolute;
+}
+
+.navbar ul {
+  display: flex;
+}
+.navbar li {
+  list-style: none;
+}
+.navbar .list-items {
+  margin: 0px 20px;
+  font-family: 'Abel', sans-serif;
+
+}
+.navbar li a {
+  text-decoration: none;
+  padding: 0px 10px;
+  margin: 0px 10px;
+  color: white;
+}
+.navbar li a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+}
+.navbar img {
+  height: 100%;
+  width: 100%;
+}
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 35px;
+        width: 110px;
+    }
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 325px;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  height: 325px;
+  width: 100%;
+  opacity: 0.8;
+  z-index: -1;
+  background: url("https://img.freepik.com/premium-photo/man-lifting-weights-gym-with-big-muscles_401927-13.jpg?w=826")
+    no-repeat center center/cover;
+}
+#home form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+#home form input {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 1px;
+}
+#services-container {
+  margin: 10px 0px;
+  height: 370px;
+}
+#services-container::before {
+  content: "";
+  height: 370px;
+  width: 100%;
+  background: url("https://img.freepik.com/free-photo/wellness-health-lifestyle-workout-graphic-word_53876-13880.jpg?w=740&t=st=1687363785~exp=1687364385~hmac=7b4654fb820f9f42821f3a56fa506dbc34543b54af0f152d90001e10c7ef642b")
+    no-repeat center center/cover;
+  z-index: -1;
+  opacity: 0.8;
+  position: absolute;
+}
+.services {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  padding: 0px 5px;
+  margin: 0px 5px;
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.services img, .services p{
+    margin: 3px;
+    padding: 3px;
+}
+.services img {
+  width: 210px;
+}
+.services-box {
+  display: flex;
+}
+#about-us-container {
+  margin-bottom: 10px;
+  height: 280px;
+}
+
+#about-us-container::before {
+  content: "";
+  height: 280px;
+  width: 100%;
+  background: url("https://img.freepik.com/free-photo/crossfit-group-gym_53876-13630.jpg?w=740&t=st=1687364218~exp=1687364818~hmac=394580a7d330a2d6ff9f146241aef96c42e3cf37de4d09d8e9d3d1e693305aca")
+    no-repeat center center/cover;
+  z-index: -1;
+  opacity: 0.8;
+  position: absolute;
+}
+.about-us {
+    padding: 2px 40px;
+    margin: 0px 40px;}
+#contact-us::before {
+  content: "";
+  height: 300px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+  position: absolute;
+  background: url("https://img.freepik.com/free-photo/flat-lay-equipment-arrangement_23-2148531502.jpg?w=740&t=st=1687417800~exp=1687418400~hmac=c50a6a10e0a8b3d8639d83e83ff3f22fa5cea4eb14c125c31844042086d1e15c")
+    no-repeat center center/cover;
+}
+#contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 300px;
+}
+.contact-form .form-group{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input, textarea{
+    border-radius: 5px;
+    margin: 3px;
+}
+/* utility classes */
+.center {
+  text-align: center;
+}
+p{
+    font-family: 'Abel', sans-serif;
+    font-size: 1rem;
+}
+h1 {
+  margin: 5px 0px;
+  padding: 7px 0px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 2rem;
+}
+h2 {
+  margin: 3px 0px;
+  padding: 5px 0px;
+  font-size: 1.6rem;
+  font-family: 'Cabin', sans-serif;
+}
+.btn {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 2px ;
+}
+.form-group input::placeholder{
+    font-size: 0.8rem;
+}
+.contact-form .form-group input::placeholder, .contact-form .form-group textarea::placeholder{
+    font-size: 0.8rem;
+}
