@@ -11,4 +11,84 @@
 }
 
 /* Services Section */
-.services-box
+.services-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#services-container {
+    height: 600px;
+}
+
+.services {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: auto;
+    width: 30%;
+    padding: 5px 30px;
+    margin: 5px 20px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+}
+
+.services img {
+    width: 150px;
+}
+
+#services-container::before {
+    height: 600px;
+    width: 100%;
+    content: "";
+    background: url("https://img.freepik.com/free-photo/wellness-health-lifestyle-workout-graphic-word_53876-13880.jpg?w=740&t=st=1687363785~exp=1687364385~hmac=7b4654fb820f9f42821f3a56fa506dbc34543b54af0f152d90001e10c7ef642b") 
+        no-repeat center center / cover;
+    z-index: -1;
+    opacity: 0.8;
+    position: absolute;
+}
+
+/* About Us Section */
+#about-us-container {
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+#about-us-container::before {
+    content: "";
+    height: 300px;
+    width: 100%;
+    background: url("https://img.freepik.com/free-photo/crossfit-group-gym_53876-13630.jpg?w=740&t=st=1687364218~exp=1687364818~hmac=394580a…") 
+        no-repeat center center / cover;
+    z-index: -1;
+    opacity: 0.8;
+    position: absolute;
+}
+
+/* Typography */
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+/* Form Placeholder Styles */
+.form-group input::placeholder {
+    font-size: 0.8rem;
+}
+
+.contact-form .form-group input::placeholder,
+.contact-form .form-group textarea::placeholder {
+    font-size: 0.8rem;
+}
+
+/* Button Styles */
+.btn {
+    font-size: 0.9rem;
+}
