@@ -1,52 +1,65 @@
+/* Contact Form */
 .contact-form .form-group {
-  display: flex;
-  flex-direction: column;
-  width: 120px;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
 }
+
+/* Home Form */
 #home form {
-  display: flex;
-  flex-direction: column;
-  padding: 10px 0px;
-  width: 120px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    width: 120px;
 }
+
+/* Services Section */
 #services-container {
-  height: 1510px;
+    height: 1510px;
 }
+
 .services {
-  border: 1px solid black;
-  border-radius: 10px;
-  height: auto;
-  width: 30%;
-  padding: 5px 30px;
-  margin: 2px 3px;
-  background-color: #e0e0e0;
-  display: flex;
-  align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: auto;
+    width: 30%;
+    padding: 5px 30px;
+    margin: 2px 3px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
 }
+
 #services-container::before {
-  height: 1510px;
-  width: 100%;
-  content: "";
-  background: url(https://img.freepik.com/free-photo/wellness-health-lifestyle-workout-graphic-word_53876-13880.jpg?w=740&t=st=1687363785~exp=1687364385~hmac=7b4654f…)
-    no-repeat center center/cover;
-  z-index: -1;
-  opacity: 0.8;
-  position: absolute;
+    height: 1510px;
+    width: 100%;
+    content: "";
+    background: url("https://img.freepik.com/free-photo/wellness-health-lifestyle-workout-graphic-word_53876-13880.jpg?w=740&t=st=1687363785~exp=1687364385~hmac=7b4654f…")
+        no-repeat center center / cover;
+    z-index: -1;
+    opacity: 0.8;
+    position: absolute;
 }
+
+/* About Us Section */
 #about-us-container {
-  margin-bottom: 10px;
-  height: 465px;
+    margin-bottom: 10px;
+    height: 465px;
 }
+
 #about-us-container::before {
-  content: "";
-  height: 465px;
-  width: 100%;
-  background: url(https://img.freepik.com/free-photo/crossfit-group-gym_53876-13630.jpg?w=740&t=st=1687364218~exp=1687364818~hmac=394580a…)
-    no-repeat center center/cover;
-  z-index: -1;
-  opacity: 0.8;
-  position: absolute;
+    content: "";
+    height: 465px;
+    width: 100%;
+    background: url("https://img.freepik.com/free-photo/crossfit-group-gym_53876-13630.jpg?w=740&t=st=1687364218~exp=1687364818~hmac=394580a…")
+        no-repeat center center / cover;
+    z-index: -1;
+    opacity: 0.8;
+    position: absolute;
 }
-h1, h2{padding: 1px 19px;
+
+/* Typography */
+h1, h2 {
+    padding: 1px 19px;
     margin: 1px;
 }
